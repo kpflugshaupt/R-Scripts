@@ -3,7 +3,7 @@ Title: Some Personal Scripts
 Version: 0.1
 Authors@R: person("Kaspar", "Pflugshaupt", email = "first.last@example.com",
                   role = c("aut", "cre"))
-Description: Miscellaneous scripts
+Description: Miscellaneous scripts. Just a place to put small stuff I might use again.
 Depends: R (>= 3.1.0)
-License: My Own
+License: GPL-2
 LazyData: true
