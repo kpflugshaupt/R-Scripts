@@ -7,3 +7,4 @@ Description: Miscellaneous scripts. Just a place to put small stuff I might use 
 Depends: R (>= 3.1.0)
 License: GPL-2
 LazyData: true
+RoxygenNote: 6.1.0
