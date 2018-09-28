@@ -16,5 +16,5 @@ The length of \code{i_vect}
 Calculate vector length
 }
 \examples{
-  v_length(c(1,1,1,1))
+v_length(c(1,1,1,1))
 }

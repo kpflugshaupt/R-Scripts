@@ -16,5 +16,5 @@ v_normalize(i_vect)
 Normalize a vector to unit length
 }
 \examples{
-  v_normalize(c(1,1,1,1))
+v_normalize(c(1,1,1,1))
 }
