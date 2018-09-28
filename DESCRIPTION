@@ -5,5 +5,5 @@ Authors@R: person("Kaspar", "Pflugshaupt", email = "first.last@example.com",
                   role = c("aut", "cre"))
 Description: Miscellaneous scripts
 Depends: R (>= 3.1.0)
-License: What license is it under?
+License: My Own
 LazyData: true
