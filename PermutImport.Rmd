@@ -1,0 +1,25 @@
+---
+title: "Permutation Importance"
+output: html_notebook
+---
+
+
+```{r}
+library(mmpf)
+X <- replicate(3, rnorm(100))
+data <- data.frame(X)
+data$y <- 2*data$X1 - 5 * data$X2 + rnorm(100)/2
+```
+
+
+```{r}
+fit <- lm(y ~ -1 + X1 + X2 + X3, data)
+summary(fit)
+plot(fit)
+```
+```{r}
+permutationImportance(data, "X1", "y", fit)
+permutationImportance(data, "X2", "y", fit)
+permutationImportance(data, "X3", "y", fit)
+```
+
